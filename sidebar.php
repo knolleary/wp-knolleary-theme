@@ -3,7 +3,7 @@
 <div id="menu-container">
 
 
-<?php if (!is_mobile()) : ?>
+<?php if (!wp_knolleary_is_mobile()) : ?>
 <div id="menu-col1">
 <div class="menu-block mbtop">
 recent things<ul><li><script type="text/javascript" src="http://friendfeed.com/embed/widget/knolleary?v=3&amp;hide_logo=1&amp;hide_comments_likes=1&amp;hide_subscribe=1&amp;width=220"></script><noscript><a href="http://friendfeed.com/knolleary"><img alt="View my FriendFeed" style="border:0;" src="http://friendfeed.com/embed/widget/knolleary?v=3&amp;hide_logo=1&amp;hide_comments_likes=1&amp;hide_subscribe=1&amp;width=220&amp;format=png"/></a></noscript></li></ul>
