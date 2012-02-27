@@ -22,7 +22,9 @@
 </div><!-- end post -->
 <?php comments_template(); ?>
 <?php endwhile; else: ?>
-<p><?php _e('sorry, no posts matched your criteria.'); ?></p>
+<div class="storycontent">
+<p><i>sorry, nothing to see here.</i></p>
+</div>
 <?php endif; ?>
 
 <div class="history-nav">

@@ -277,13 +277,20 @@ div.history-nav-older {
 }
 #footer {
 }
+
+#commentsd {
+  margin-left: 120px;
+  width: 780px;
+}
+
 h2#comments, h2#postcomment {
    color: #333;
 }
 ol#commentlist {
    margin: 0px 10px 0 10px;
    color: #333;
-   padding: none;
+   padding: 0;
+   padding-left: 30px;
    width: 80%;
 }
 ol#commentlist li  {
@@ -311,7 +318,6 @@ li.commentformitem {
 div.comments-text {
    margin: 0px;
    padding: 0px;
-   padding-left: 20px;
 }
 div.comments-text a {
    color: #55a;
@@ -388,6 +394,10 @@ a:hover {
    div.history-nav {
       margin-left: 0px;
    }
+   #commentsd {
+      width: 790px;
+      margin-left: 0px;
+   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 800px) {
@@ -420,6 +430,9 @@ a:hover {
    }
    #menu-col3 {
       float: none;
+   }
+   #commentsd {
+      width: 590px;
    }
 }
 
@@ -462,6 +475,9 @@ a:hover {
    #menu-col1,#menu-col2,#menu-col3 {
       width: 400px;
       float: none;
+   }
+   #commentsd {
+      width: 440px;
    }
 }
 
@@ -507,6 +523,23 @@ a:hover {
    }
    #header h2 {
       display: none;
+   }
+   #commentsd {
+      width: 280px;
+   }
+   #commentlist {
+      width: 100% !important;
+      padding-left: 15px !important;
+   }
+   .comments-text {
+      position: relative;
+      left: -20px;
+      width: 270px;
+   }
+   .commentformitem {
+      position: relative;
+      left: -20px;
+      width: 270px;
    }
 }
 
