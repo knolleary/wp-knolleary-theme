@@ -419,6 +419,10 @@ a:hover {
    .storycontent {
       width: 590px;
    }
+   .storycontent img {
+      max-width: 590px;
+      height: auto;
+   }
    .storyfooter {
       width: 590px;
    }
