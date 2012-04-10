@@ -181,13 +181,18 @@ blockquote {
    border: 1px solid #999;
    background: #fafafa;
 }
+code {
+   font-family: 'Ubuntu Mono', sans-serif;
+}
 pre {
+   font-family: 'Ubuntu Mono', sans-serif;
    padding: 5px;
    margin-top: 5px;
    margin-bottom: 5px;
    border: 1px solid #999;
    background: #ffc;
    overflow: auto;
+   color: #446;
 }
 .commentlink {
    float:left;
