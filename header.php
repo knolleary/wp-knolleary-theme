@@ -5,7 +5,6 @@
  <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
 <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
  <style type="text/css" media="screen">
   @import url( <?php bloginfo('stylesheet_url'); ?> );
  </style>
