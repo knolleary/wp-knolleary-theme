@@ -26,7 +26,7 @@ if ( post_password_required() ) : ?>
  ?>
 	<li <?php comment_class(); ?> id="comment-<?php comment_ID() ?>">
 	<p class="comments-meta"><?php comment_type('', 'trackback from','pingback from'); ?> <?php comment_author_link() ?> &bull; <a href="#comment-<?php comment_ID() ?>"><?php comment_date();?></a> <?php edit_comment_link("edit", ' '); ?></p>
-   <div class="comments-text"><?php comment_text() ?></div>
+<?php if ($comment->comment_type == 'comment' ):?>  <div class="comments-text"><?php comment_text() ?></div><?php endif; ?>
 	</li>
 
 <?php endforeach; ?>
