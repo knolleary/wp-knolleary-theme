@@ -195,6 +195,7 @@ pre {
    overflow: auto;
    color: #446;
    font-size: 0.9em;
+   border-radius: 3px;
 }
 .commentlink {
    float:left;

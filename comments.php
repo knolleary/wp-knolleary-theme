@@ -2,7 +2,7 @@
 
  if ( get_post_meta($post->ID, "no_comments", true)) {return;}
 
-
+ if ( !comments_open()){return;}
  
 if ( post_password_required() ) : ?>
 <p><?php _e('Enter your password to view comments.'); ?></p>
@@ -77,4 +77,3 @@ if ( post_password_required() ) : ?>
 </ol>
 <?php endif ?>
 </div><!-- end comments div -->
-
