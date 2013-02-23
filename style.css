@@ -6,13 +6,14 @@ Author URI: http://knolleary.net
 */
 
 body {
-   font-family: "Lora", "Helvetica Neue", Arial, Helvetica, sans-serif;
+   -font-family: "Lora", "Helvetica Neue", Arial, Helvetica, sans-serif;
+   font-family: Palatino, Georgia, serif;
    text-align: center;
    margin: 0;
    padding: 0;
-   font-size: 18px;
+   font-size: 16px;
    font-weight: normal;
-   line-height: 18px;
+   line-height:24px;
 }
 #content {
    width: 1020px;
@@ -117,7 +118,8 @@ a {
    float: left;
    text-align: left;
    width: 110px;
-   margin-top: -33px;
+font-size: 0.95em;
+   margin-top: -39px;
    font-style: italic;
 }
 .meta div {
@@ -155,7 +157,7 @@ div.history-nav a:hover {
 .storycontent {
    width: 780px;
    color: #333;
-   line-height: 28px;
+   line-height: 26px;
    margin-left:  120px;
 }
 .storycontent a {
